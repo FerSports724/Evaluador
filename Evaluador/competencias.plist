@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Nivel_3</key>
+		<string>3. Emplea actividades que permiten a los estudiantes participar y relacionar el contenido nuevo con algo que ya conoce (discusiones guiadas, lluvia de ideas, hipótesis, opiniones, analogías, diálogo, mapas, redes, cuestionarios, entre otros).</string>
+		<key>Nivel_2</key>
+		<string>2. Emplea actividades que permiten a los estudiantes parcialmente retomar los conocimientos previos (con poca participación de los estudiantes).</string>
+		<key>Nivel_1</key>
+		<string>1. Intenta retomar los conocimientos previos empleando sólo su exposición y con nula participación de los estudiantes.</string>
+		<key>Nivel_0</key>
+		<string>0. No retoma los conocimientos previos de los estudiantes y empieza la explicación o desarrollo de la clase.</string>
+		<key>No_Aplica</key>
+		<string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+	</dict>
+	<dict>
+		<key>Nivel_3</key>
+		<string>3. Utiliza materiales que permiten a los estudiantes tener interacción con la información nueva, y apoyan prácticas de crítica, toma de decisiones, investigación, resolución de problemas, la discusión y/o la problematización, entre otros.</string>
+		<key>Nivel_2</key>
+		<string>2. Utiliza materiales que permiten a los estudiantes tener interacción con la información nueva; sin embargo, su participación es pasiva, sólo para memorizar o acumular conceptos o procedimientos.</string>
+		<key>Nivel_1</key>
+		<string>1. Utiliza materiales que permiten a los estudiantes tener interacción con la información nueva, pero sólo apoyan la exposición oral del docente.</string>
+		<key>Nivel_0</key>
+		<string>0. No utiliza materiales.</string>
+		<key>No_Aplica</key>
+		<string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+	</dict>
+    <dict>
+        <key>Nivel_3</key>
+        <string>3. Presenta la información nueva de manera coherente y estructurada que permite una progresión o una continuidad temática. Utiliza estrategias como: Advierte cuando empieza un tema nuevo, repetir la información central, parafrasear la información presentada, hacer recapitulaciones, etc.</string>
+        <key>Nivel_2</key>
+        <string>2. Presenta la información nueva de manera coherente y estructurada que permite una progresión o continuidad temática pero no utiliza estrategias como: Advierte cuando empieza un tema nuevo, repetir la información central, parafrasear la información presentada, hacer recapitulaciones, etc.</string>
+        <key>Nivel_1</key>
+        <string>1. Presenta la información nueva de manera coherente pero no se identifica claramente la progresión o continuidad temática, no utiliza estrategias para advertir cuando empieza un tema nuevo, repetir la información central usar ejemplos, parafrasear la información presentada, hacer recapitulaciones, etc.</string>
+        <key>Nivel_0</key>
+        <string>0. Presenta la información nueva sin ninguna estrategia para dar continuidad temática.</string>
+        <key>No_Aplica</key>
+        <string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+    </dict>
+    <dict>
+        <key>Nivel_3</key>
+        <string>3. Emplea ejemplos con datos o contenidos relevantes y centrados a la vida real e intereses de los estudiantes (investigación, encuestas, etc.).</string>
+        <key>Nivel_2</key>
+        <string>2. Emplea ejemplos con datos o contenidos centrados a la vida real, pero ajenos a los intereses de los estudiantes.</string>
+        <key>Nivel_1</key>
+        <string>1. Emplea ejemplos con datos o contenidos sobre datos hipotéticos y ajenos a los intereses de los estudiantes (lecturas abstractas y descontextualizadas, ejercicios con fórmulas).</string>
+        <key>Nivel_0</key>
+        <string>0. No emplea ejemplos.</string>
+        <key>No_Aplica</key>
+        <string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+    </dict>
+    <dict>
+        <key>Nivel_3</key>
+        <string>3. La clase se centró mas en el aprendizaje del estudiante que en la exposición oral del docente, se promovieron tareas complejas o retos que enfrentan directamente a los estudiantes con sus conocimientos, habilidades o actitudes para la resolución de tareas-problema.</string>
+        <key>Nivel_2</key>
+        <string>2. La clase se centró más en el aprendizaje del estudiante que en la exposición oral del docente, se promovieron actividades que involucran solo participación de los estudiantes en dinámicas sin que promuevan resolución de tareas-problema ni involucren toma de decisiones, crítica, discusiones, etc.</string>
+        <key>Nivel_1</key>
+        <string>1. La clase se centró más en la exposición oral del docente, en algún otro momento utiliza dinámicas o plantea preguntas sin que promuevan la toma de decisiones, crítica o discusión, etc.</string>
+        <key>Nivel_0</key>
+        <string>0. La clase se centró más en la exposición oral del docente, el estudiante es sólo receptor de los contenidos nuevos.</string>
+        <key>No_Aplica</key>
+        <string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+    </dict>
+    <dict>
+        <key>Nivel_3</key>
+        <string>3. Utiliza diversos recursos tecnológicos que facilitan el acceso a información y contenidos de aprendizaje y la creación de escenarios para promover competencias.</string>
+        <key>Nivel_2</key>
+        <string>2. Utiliza diversos recursos tecnológicos que facilitan el acceso a información y contenidos de aprendizaje, pero no promueve competencias.</string>
+        <key>Nivel_1</key>
+        <string>1. Utiliza algunos recursos tecnológicos que sólo apoyan el aprendizaje tradicional (exposiciones, estudiantes receptores).</string>
+        <key>Nivel_0</key>
+        <string>0. No utiliza recursos tecnológicos.</string>
+        <key>No_Aplica</key>
+        <string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+    </dict>
+    <dict>
+        <key>Nivel_3</key>
+        <string>3. Propone actividades y materiales que activan la curiosidad, el interés y atraen la atención de los estudiantes en el contenido nuevo. Proporciona fuentes de información adicionales para el trabajo fuera del aula.</string>
+        <key>Nivel_2</key>
+        <string>2. Propone actividades y materiales que activan la curiosidad de los estudiantes en el contenido nuevo. No proporciona fuentes de información adicionales.</string>
+        <key>Nivel_1</key>
+        <string>1. Propone actividades y materiales que activan poco el interés de los estudiantes (se distaren fácilmente) no captura su atención por completo. No proporciona fuentes de información adicionales.</string>
+        <key>Nivel_0</key>
+        <string>0. No propone actividades que activen la curiosidad ni el interés de los estudiantes. No proporciona fuentes de información adicionales.</string>
+        <key>No_Aplica</key>
+        <string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+    </dict>
+    <dict>
+        <key>Nivel_3</key>
+        <string>3. Utiliza de 7 a 9 herramientas.</string>
+        <key>Nivel_2</key>
+        <string>2. Utiliza de 4 a 6 herramientas.</string>
+        <key>Nivel_1</key>
+        <string>1. Utiliza de 1 a 3 herramientas.</string>
+        <key>Nivel_0</key>
+        <string>0. No utiliza ninguna de las herramientas.</string>
+        <key>No_Aplica</key>
+        <string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+    </dict>
+    <dict>
+        <key>Nivel_3</key>
+        <string>3. Empleo del trabajo colaborativo para la solución de tareas-problema: se observa que los estudiantes se apoyan unos a otros, todos participan para cumplir con la actividad y se comunican de manera precisa, el trabajo en grupo promueve procesos como la discusión.</string>
+        <key>Nivel_2</key>
+        <string>2. Empleo del trabajo colaborativo para la solución de tareas-problema: se observa que solo algunos estudiantes se apoyan, no todos participan para cumplir con la actividad lo que dificulta la promoción de procesos como la discusión.</string>
+        <key>Nivel_1</key>
+        <string>1. Empeló del trabajo en grupos: se observa que los estudiantes participan para cumplir con la actividad.</string>
+        <key>Nivel_0</key>
+        <string>0. Empleo del trabajo en grupos: se observa que los estudiantes platican de temas que no tienen que ver con la actividad y realiza cada uno su propio trabajo mientras ignoran a sus compañeros.</string>
+        <key>No_Aplica</key>
+        <string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+    </dict>
+    <dict>
+        <key>Nivel_3</key>
+        <string>3. Alienta a los estudiantes para que expresen sus opiniones, promueve el respeto y la tolerancia, escucha las aportaciones de forma cordial y respetuosa y los toma en cuenta.</string>
+        <key>Nivel_2</key>
+        <string>2. Alienta a los estudiantes para que expresen sus opiniones, escucha las aportaciones de forma cordial y respetuosa.</string>
+        <key>Nivel_1</key>
+        <string>1. Alienta sólo a algunos estudiantes para que expresen sus opiniones.</string>
+        <key>Nivel_0</key>
+        <string>0. No promueve que los estudiantes expresen sus opiniones.</string>
+        <key>No_Aplica</key>
+        <string>N/A. El atributo no se puede observar, ya que las actividades programadas no lo contemplan.</string>
+    </dict>
+</array>
+</plist>

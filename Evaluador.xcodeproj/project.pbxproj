@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0B60C821357D4E0006D1F8 /* Evaluacion.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = ED0B60C721357D1F0006D1F8 /* Evaluacion.sqlite */; };
+		ED0B60CA21357ED40006D1F8 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B60C921357ED40006D1F8 /* FileHelper.swift */; };
+		ED0B60CC21358A700006D1F8 /* modeloEvaluacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B60CB21358A700006D1F8 /* modeloEvaluacion.swift */; };
+		ED0B60CE213599470006D1F8 /* celdaRegistroMateria.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0B60CD213599470006D1F8 /* celdaRegistroMateria.swift */; };
+		ED1398132170D8130095BF32 /* editarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1398122170D8130095BF32 /* editarVC.swift */; };
+		ED1EE2CB2138461800D78260 /* nuevaEvaluacionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1EE2CA2138461800D78260 /* nuevaEvaluacionVC.swift */; };
+		ED59B03D215152F600AC0BD1 /* confirmarRegistroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59B03C215152F600AC0BD1 /* confirmarRegistroVC.swift */; };
+		ED63C40F2151286600D8CB5F /* celdaCompetencias.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED63C40E2151286600D8CB5F /* celdaCompetencias.swift */; };
+		ED6B47312136CE2E0021B7C7 /* detallesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B47302136CE2E0021B7C7 /* detallesVC.swift */; };
+		EDAFB79F2135C89100B18FF2 /* competencias.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDAFB79E2135C89100B18FF2 /* competencias.plist */; };
+		EDDBCB94214FD732005D178C /* modeloCompetencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDBCB93214FD732005D178C /* modeloCompetencia.swift */; };
+		EDF44FFF2134475F008450BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF44FFE2134475F008450BC /* AppDelegate.swift */; };
+		EDF450012134475F008450BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF450002134475F008450BC /* ViewController.swift */; };
+		EDF450042134475F008450BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF450022134475F008450BC /* Main.storyboard */; };
+		EDF4500621344761008450BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF4500521344761008450BC /* Assets.xcassets */; };
+		EDF4500921344761008450BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF4500721344761008450BC /* LaunchScreen.storyboard */; };
+		EDF4501221344794008450BC /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF4501121344793008450BC /* libsqlite3.0.tbd */; };
+		EDF4501F21344836008450BC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4501421344835008450BC /* FMDatabase.m */; };
+		EDF4502021344836008450BC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4501621344835008450BC /* FMDatabasePool.m */; };
+		EDF4502121344836008450BC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4501821344836008450BC /* FMDatabaseQueue.m */; };
+		EDF4502221344836008450BC /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4501C21344836008450BC /* FMResultSet.m */; };
+		EDF4502321344836008450BC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF4501E21344836008450BC /* FMDatabaseAdditions.m */; };
+		EDF4502621344AF3008450BC /* infoMaestros.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDF4502521344AF3008450BC /* infoMaestros.plist */; };
+		EDF450282134521A008450BC /* celdaMaestro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF450272134521A008450BC /* celdaMaestro.swift */; };
+		EDF4502A21346F1C008450BC /* modeloMaestro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF4502921346F1C008450BC /* modeloMaestro.swift */; };
+		EDF4502C21347C70008450BC /* tablaEvaluacionesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF4502B21347C6F008450BC /* tablaEvaluacionesVC.swift */; };
+		EDFC42A9215BB37300B70579 /* celdaDetalles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFC42A8215BB37300B70579 /* celdaDetalles.swift */; };
+		EDFD152C2162606B00F07CDF /* observacionesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFD152B2162606B00F07CDF /* observacionesVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED0B60C721357D1F0006D1F8 /* Evaluacion.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Evaluacion.sqlite; sourceTree = "<group>"; };
+		ED0B60C921357ED40006D1F8 /* FileHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		ED0B60CB21358A700006D1F8 /* modeloEvaluacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeloEvaluacion.swift; sourceTree = "<group>"; };
+		ED0B60CD213599470006D1F8 /* celdaRegistroMateria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaRegistroMateria.swift; sourceTree = "<group>"; };
+		ED1398122170D8130095BF32 /* editarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editarVC.swift; sourceTree = "<group>"; };
+		ED1EE2CA2138461800D78260 /* nuevaEvaluacionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuevaEvaluacionVC.swift; sourceTree = "<group>"; };
+		ED59B03C215152F600AC0BD1 /* confirmarRegistroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = confirmarRegistroVC.swift; sourceTree = "<group>"; };
+		ED63C40E2151286600D8CB5F /* celdaCompetencias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaCompetencias.swift; sourceTree = "<group>"; };
+		ED6B47302136CE2E0021B7C7 /* detallesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detallesVC.swift; sourceTree = "<group>"; };
+		EDAFB79E2135C89100B18FF2 /* competencias.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = competencias.plist; sourceTree = "<group>"; };
+		EDDBCB93214FD732005D178C /* modeloCompetencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeloCompetencia.swift; sourceTree = "<group>"; };
+		EDF44FFB2134475F008450BC /* Evaluador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evaluador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF44FFE2134475F008450BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF450002134475F008450BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF450032134475F008450BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF4500521344761008450BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF4500821344761008450BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF4500A21344761008450BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF4501121344793008450BC /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		EDF4501321344835008450BC /* Evaluador-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Evaluador-Bridging-Header.h"; sourceTree = "<group>"; };
+		EDF4501421344835008450BC /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		EDF4501521344835008450BC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		EDF4501621344835008450BC /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		EDF4501721344836008450BC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		EDF4501821344836008450BC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		EDF4501921344836008450BC /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		EDF4501A21344836008450BC /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		EDF4501B21344836008450BC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		EDF4501C21344836008450BC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		EDF4501D21344836008450BC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		EDF4501E21344836008450BC /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		EDF4502521344AF3008450BC /* infoMaestros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = infoMaestros.plist; sourceTree = "<group>"; };
+		EDF450272134521A008450BC /* celdaMaestro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaMaestro.swift; sourceTree = "<group>"; };
+		EDF4502921346F1C008450BC /* modeloMaestro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeloMaestro.swift; sourceTree = "<group>"; };
+		EDF4502B21347C6F008450BC /* tablaEvaluacionesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tablaEvaluacionesVC.swift; sourceTree = "<group>"; };
+		EDFC42A8215BB37300B70579 /* celdaDetalles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaDetalles.swift; sourceTree = "<group>"; };
+		EDFD152B2162606B00F07CDF /* observacionesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observacionesVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF44FF82134475F008450BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF4501221344794008450BC /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF44FF22134475F008450BC = {
+			isa = PBXGroup;
+			children = (
+				ED0B60C721357D1F0006D1F8 /* Evaluacion.sqlite */,
+				EDF44FFD2134475F008450BC /* Evaluador */,
+				EDF44FFC2134475F008450BC /* Products */,
+				EDF4501021344793008450BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF44FFC2134475F008450BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF44FFB2134475F008450BC /* Evaluador.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF44FFD2134475F008450BC /* Evaluador */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4502421344841008450BC /* FMDB */,
+				EDF44FFE2134475F008450BC /* AppDelegate.swift */,
+				EDF4502921346F1C008450BC /* modeloMaestro.swift */,
+				ED0B60CB21358A700006D1F8 /* modeloEvaluacion.swift */,
+				EDDBCB93214FD732005D178C /* modeloCompetencia.swift */,
+				EDF450002134475F008450BC /* ViewController.swift */,
+				EDF450272134521A008450BC /* celdaMaestro.swift */,
+				EDF4502B21347C6F008450BC /* tablaEvaluacionesVC.swift */,
+				ED0B60CD213599470006D1F8 /* celdaRegistroMateria.swift */,
+				ED6B47302136CE2E0021B7C7 /* detallesVC.swift */,
+				EDFC42A8215BB37300B70579 /* celdaDetalles.swift */,
+				ED1398122170D8130095BF32 /* editarVC.swift */,
+				ED1EE2CA2138461800D78260 /* nuevaEvaluacionVC.swift */,
+				ED63C40E2151286600D8CB5F /* celdaCompetencias.swift */,
+				EDFD152B2162606B00F07CDF /* observacionesVC.swift */,
+				ED59B03C215152F600AC0BD1 /* confirmarRegistroVC.swift */,
+				EDF450022134475F008450BC /* Main.storyboard */,
+				EDF4500521344761008450BC /* Assets.xcassets */,
+				ED0B60C921357ED40006D1F8 /* FileHelper.swift */,
+				EDF4500721344761008450BC /* LaunchScreen.storyboard */,
+				EDF4501321344835008450BC /* Evaluador-Bridging-Header.h */,
+				EDF4500A21344761008450BC /* Info.plist */,
+				EDAFB79E2135C89100B18FF2 /* competencias.plist */,
+				EDF4502521344AF3008450BC /* infoMaestros.plist */,
+			);
+			path = Evaluador;
+			sourceTree = "<group>";
+		};
+		EDF4501021344793008450BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4501121344793008450BC /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDF4502421344841008450BC /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4501521344835008450BC /* FMDatabase.h */,
+				EDF4501421344835008450BC /* FMDatabase.m */,
+				EDF4501D21344836008450BC /* FMDatabaseAdditions.h */,
+				EDF4501E21344836008450BC /* FMDatabaseAdditions.m */,
+				EDF4501921344836008450BC /* FMDatabasePool.h */,
+				EDF4501621344835008450BC /* FMDatabasePool.m */,
+				EDF4501721344836008450BC /* FMDatabaseQueue.h */,
+				EDF4501821344836008450BC /* FMDatabaseQueue.m */,
+				EDF4501A21344836008450BC /* FMDB.h */,
+				EDF4501B21344836008450BC /* FMResultSet.h */,
+				EDF4501C21344836008450BC /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF44FFA2134475F008450BC /* Evaluador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF4500D21344761008450BC /* Build configuration list for PBXNativeTarget "Evaluador" */;
+			buildPhases = (
+				EDF44FF72134475F008450BC /* Sources */,
+				EDF44FF82134475F008450BC /* Frameworks */,
+				EDF44FF92134475F008450BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Evaluador;
+			productName = Evaluador;
+			productReference = EDF44FFB2134475F008450BC /* Evaluador.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF44FF32134475F008450BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Fernando Vázquez Bernal";
+				TargetAttributes = {
+					EDF44FFA2134475F008450BC = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = EDF44FF62134475F008450BC /* Build configuration list for PBXProject "Evaluador" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF44FF22134475F008450BC;
+			productRefGroup = EDF44FFC2134475F008450BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF44FFA2134475F008450BC /* Evaluador */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF44FF92134475F008450BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0B60C821357D4E0006D1F8 /* Evaluacion.sqlite in Resources */,
+				EDF4500921344761008450BC /* LaunchScreen.storyboard in Resources */,
+				EDF4500621344761008450BC /* Assets.xcassets in Resources */,
+				EDF4502621344AF3008450BC /* infoMaestros.plist in Resources */,
+				EDF450042134475F008450BC /* Main.storyboard in Resources */,
+				EDAFB79F2135C89100B18FF2 /* competencias.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF44FF72134475F008450BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0B60CE213599470006D1F8 /* celdaRegistroMateria.swift in Sources */,
+				ED63C40F2151286600D8CB5F /* celdaCompetencias.swift in Sources */,
+				ED0B60CC21358A700006D1F8 /* modeloEvaluacion.swift in Sources */,
+				EDF4502A21346F1C008450BC /* modeloMaestro.swift in Sources */,
+				EDFD152C2162606B00F07CDF /* observacionesVC.swift in Sources */,
+				EDF4502221344836008450BC /* FMResultSet.m in Sources */,
+				EDF450282134521A008450BC /* celdaMaestro.swift in Sources */,
+				ED1EE2CB2138461800D78260 /* nuevaEvaluacionVC.swift in Sources */,
+				ED1398132170D8130095BF32 /* editarVC.swift in Sources */,
+				EDF4502121344836008450BC /* FMDatabaseQueue.m in Sources */,
+				ED0B60CA21357ED40006D1F8 /* FileHelper.swift in Sources */,
+				ED59B03D215152F600AC0BD1 /* confirmarRegistroVC.swift in Sources */,
+				EDFC42A9215BB37300B70579 /* celdaDetalles.swift in Sources */,
+				EDF4502C21347C70008450BC /* tablaEvaluacionesVC.swift in Sources */,
+				EDF4501F21344836008450BC /* FMDatabase.m in Sources */,
+				EDDBCB94214FD732005D178C /* modeloCompetencia.swift in Sources */,
+				EDF4502021344836008450BC /* FMDatabasePool.m in Sources */,
+				EDF450012134475F008450BC /* ViewController.swift in Sources */,
+				EDF4502321344836008450BC /* FMDatabaseAdditions.m in Sources */,
+				ED6B47312136CE2E0021B7C7 /* detallesVC.swift in Sources */,
+				EDF44FFF2134475F008450BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDF450022134475F008450BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF450032134475F008450BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF4500721344761008450BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF4500821344761008450BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF4500B21344761008450BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF4500C21344761008450BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF4500E21344761008450BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 738YZJQJ3T;
+				INFOPLIST_FILE = Evaluador/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfvb.Evaluador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Evaluador/Evaluador-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EDF4500F21344761008450BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 738YZJQJ3T;
+				INFOPLIST_FILE = Evaluador/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devfvb.Evaluador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Evaluador/Evaluador-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF44FF62134475F008450BC /* Build configuration list for PBXProject "Evaluador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF4500B21344761008450BC /* Debug */,
+				EDF4500C21344761008450BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF4500D21344761008450BC /* Build configuration list for PBXNativeTarget "Evaluador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF4500E21344761008450BC /* Debug */,
+				EDF4500F21344761008450BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF44FF32134475F008450BC /* Project object */;
+}
